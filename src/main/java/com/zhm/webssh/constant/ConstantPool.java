@@ -1,8 +1,8 @@
-package cn.objectspace.webssh.constant;
+package com.zhm.webssh.constant;
 
 /**
 * @Description: 常量池
-* @Author: NoCortY
+* @Author: miao
 * @Date: 2020/3/8
 */
 public class ConstantPool {

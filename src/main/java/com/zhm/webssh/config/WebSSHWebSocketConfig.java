@@ -1,7 +1,7 @@
-package cn.objectspace.webssh.config;
+package com.zhm.webssh.config;
 
-import cn.objectspace.webssh.interceptor.WebSocketInterceptor;
-import cn.objectspace.webssh.websocket.WebSSHWebSocketHandler;
+import com.zhm.webssh.interceptor.WebSocketInterceptor;
+import com.zhm.webssh.websocket.WebSSHWebSocketHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.socket.config.annotation.EnableWebSocket;
@@ -10,7 +10,7 @@ import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry
 
 /**
 * @Description: websocket配置
-* @Author: NoCortY
+* @Author: miao
 * @Date: 2020/3/8
 */
 @Configuration

@@ -1,6 +1,6 @@
-package cn.objectspace.webssh.interceptor;
+package com.zhm.webssh.interceptor;
 
-import cn.objectspace.webssh.constant.ConstantPool;
+import com.zhm.webssh.constant.ConstantPool;
 import org.springframework.http.server.ServerHttpRequest;
 import org.springframework.http.server.ServerHttpResponse;
 import org.springframework.http.server.ServletServerHttpRequest;
@@ -15,7 +15,7 @@ public class WebSocketInterceptor implements HandshakeInterceptor {
      * @Description: Handler处理前调用
      * @Param: [serverHttpRequest, serverHttpResponse, webSocketHandler, map]
      * @return: boolean
-     * @Author: NoCortY
+     * @Author: miao
      * @Date: 2020/3/1
      */
     @Override

@@ -1,4 +1,4 @@
-package cn.objectspace;
+package com.zhm;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,7 +1,7 @@
-package cn.objectspace.webssh.websocket;
+package com.zhm.webssh.websocket;
 
-import cn.objectspace.webssh.constant.ConstantPool;
-import cn.objectspace.webssh.service.WebSSHService;
+import com.zhm.webssh.constant.ConstantPool;
+import com.zhm.webssh.service.WebSSHService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,7 @@ import org.springframework.web.socket.*;
 
 /**
 * @Description: WebSSH的WebSocket处理器
-* @Author: NoCortY
+* @Author: miao
 * @Date: 2020/3/8
 */
 @Component
@@ -24,7 +24,7 @@ public class WebSSHWebSocketHandler implements WebSocketHandler{
      * @Description: 用户连接上WebSocket的回调
      * @Param: [webSocketSession]
      * @return: void
-     * @Author: NoCortY
+     * @Author: miao
      * @Date: 2020/3/8
      */
     @Override
@@ -38,7 +38,7 @@ public class WebSSHWebSocketHandler implements WebSocketHandler{
      * @Description: 收到消息的回调
      * @Param: [webSocketSession, webSocketMessage]
      * @return: void
-     * @Author: NoCortY
+     * @Author: miao
      * @Date: 2020/3/8
      */
     @Override
@@ -60,7 +60,7 @@ public class WebSSHWebSocketHandler implements WebSocketHandler{
      * @Description: 出现错误的回调
      * @Param: [webSocketSession, throwable]
      * @return: void
-     * @Author: NoCortY
+     * @Author: miao
      * @Date: 2020/3/8
      */
     @Override
@@ -72,7 +72,7 @@ public class WebSSHWebSocketHandler implements WebSocketHandler{
      * @Description: 连接关闭的回调
      * @Param: [webSocketSession, closeStatus]
      * @return: void
-     * @Author: NoCortY
+     * @Author: miao
      * @Date: 2020/3/8
      */
     @Override

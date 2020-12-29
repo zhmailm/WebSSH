@@ -12,11 +12,11 @@
 <script src="../js/webssh.js" charset="utf-8"></script>
 <script>
     openTerminal( {
-        /*operate:'connect',
-        host: '',//IP
-        port: '',//端口号
-        username: '',//用户名
-        password: ''//密码*/
+        operate:'connect',
+        host: '172.17.226.163',//IP
+        port: '22',//端口号
+        username: 'root',//用户名
+        password: 'abc123..'//密码
     });
     function openTerminal(options){
         var client = new WSSHClient();

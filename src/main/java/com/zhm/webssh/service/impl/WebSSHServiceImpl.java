@@ -1,9 +1,9 @@
-package cn.objectspace.webssh.service.impl;
+package com.zhm.webssh.service.impl;
 
-import cn.objectspace.webssh.constant.ConstantPool;
-import cn.objectspace.webssh.pojo.SSHConnectInfo;
-import cn.objectspace.webssh.pojo.WebSSHData;
-import cn.objectspace.webssh.service.WebSSHService;
+import com.zhm.webssh.constant.ConstantPool;
+import com.zhm.webssh.pojo.SSHConnectInfo;
+import com.zhm.webssh.pojo.WebSSHData;
+import com.zhm.webssh.service.WebSSHService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.jcraft.jsch.Channel;
 import com.jcraft.jsch.JSch;
@@ -27,7 +27,7 @@ import java.util.concurrent.Executors;
 
 /**
 * @Description: WebSSH业务逻辑实现
-* @Author: NoCortY
+* @Author: miao
 * @Date: 2020/3/8
 */
 @Service
@@ -43,7 +43,7 @@ public class WebSSHServiceImpl implements WebSSHService {
      * @Description: 初始化连接
      * @Param: [session]
      * @return: void
-     * @Author: NoCortY
+     * @Author: miao
      * @Date: 2020/3/7
      */
     @Override
@@ -61,7 +61,7 @@ public class WebSSHServiceImpl implements WebSSHService {
      * @Description: 处理客户端发送的数据
      * @Param: [buffer, session]
      * @return: void
-     * @Author: NoCortY
+     * @Author: miao
      * @Date: 2020/3/7
      */
     @Override
@@ -132,7 +132,7 @@ public class WebSSHServiceImpl implements WebSSHService {
      * @Description: 使用jsch连接终端
      * @Param: [cloudSSH, webSSHData, webSocketSession]
      * @return: void
-     * @Author: NoCortY
+     * @Author: miao
      * @Date: 2020/3/7
      */
     private void connectToSSH(SSHConnectInfo sshConnectInfo, WebSSHData webSSHData, WebSocketSession webSocketSession) throws JSchException, IOException {
@@ -185,7 +185,7 @@ public class WebSSHServiceImpl implements WebSSHService {
      * @Description: 将消息转发到终端
      * @Param: [channel, data]
      * @return: void
-     * @Author: NoCortY
+     * @Author: miao
      * @Date: 2020/3/7
      */
     private void transToSSH(Channel channel, String command) throws IOException {

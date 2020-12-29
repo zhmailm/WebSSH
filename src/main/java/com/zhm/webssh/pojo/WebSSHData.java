@@ -1,8 +1,8 @@
-package cn.objectspace.webssh.pojo;
+package com.zhm.webssh.pojo;
 
 /**
 * @Description: webssh数据传输
-* @Author: NoCortY
+* @Author: miao
 * @Date: 2020/3/8
 */
 public class WebSSHData {

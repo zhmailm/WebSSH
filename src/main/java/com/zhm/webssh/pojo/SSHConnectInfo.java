@@ -1,11 +1,11 @@
-package cn.objectspace.webssh.pojo;
+package com.zhm.webssh.pojo;
 
 import com.jcraft.jsch.Channel;
 import com.jcraft.jsch.JSch;
 import org.springframework.web.socket.WebSocketSession;
 /**
 * @Description: ssh连接信息
-* @Author: NoCortY
+* @Author: miao
 * @Date: 2020/3/8
 */
 public class SSHConnectInfo {
